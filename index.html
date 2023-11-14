@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>To-Do List</title>
+</head>
+
+<body>
+    <header>
+        <div class="navbar">
+            <i class="fa-solid fa-pen-to-square to-do"></i> What to do Next ?
+
+        </div>
+    </header>
+    <main>
+        <div class="InputBtn">
+            <div id="alerted" style="color: rgb(164, 8, 8);"></div>
+            <div>
+            <input type="text" placeholder="Enter Tasks" class="input_button">
+            <button id="btn" onclick="addTask()"><i class="fa-solid fa-plus"></i> Add</button>
+        </div>
+        </div>
+        <div id="taskitm">
+            <div class="taskList">
+                <div id="alerted1" style="color: rgb(164, 8, 8);"></div>
+                <div id="notask" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: 25px;" ><i class="fa-solid fa-circle-exclamation" style="margin-right: 3px;"></i>No Tasks To Show.........</div>
+                <!-- <div class="listItems" id="taskcontent" > Add items Like this. You may Remove or Edit me.
+                </div>
+
+                <div style="display: flex; justify-content: flex-end;"><button id="done" onclick="removeTask(this)"
+                        style="width: 90px; height: 30px; margin: 10px; background-color: rgb(229, 23, 23);border-radius: 5px; color: white;border: 2px solid rgb(255, 0, 0);"><i class="fa-solid fa-trash" style="margin-right: 3px;"></i>Remove</button> 
+                            <button id="Edit" onclick="editTask(this)"
+                        style="width: 90px; height: 30px; background-color: rgb(98, 4, 98);color: white; border-radius: 5px;margin: 10px; border: 2px solid rgb(98, 4, 98);">
+                        <i class="fa-regular fa-pen-to-square" style="margin-right: 3px;"></i>Edit Task</button></div>
+                    </div> -->
+            </div>
+
+    </main>
+    <footer class="pos-foot">
+        <div class="footer-cl" style="font-size: 16px; text-align: center;"><i class="fa-regular fa-copyright"></i> All
+            Copyrights Reserved</div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
